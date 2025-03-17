@@ -11,7 +11,8 @@ Requirements:
 Offline installers have a complete copy of macOS, while online installers are only a recovery image (~500MB) which then download macOS from Apple servers once booted.
 
 * Offline
-  * Can only be made in macOS
+  * ~~Can only be made in macOS~~
+    * You can now make an "Offline" installer in Windows with [Unplugged](https://github.com/corpnewt/UnPlugged)
   * Windows/Linux do not have the APFS/HFS drivers needed to assemble a full installer
 * Online
   * Can be made in macOS/Linux/Windows
