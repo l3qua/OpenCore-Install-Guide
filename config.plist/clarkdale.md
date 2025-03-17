@@ -736,7 +736,7 @@ For those having booting issues, please make sure to read the [Troubleshooting s
 
 ### Enable
 
-* VT-x
+* VT-x/VMX
 * Above 4G Decoding
 * Hyper-Threading
 * Execute Disable Bit

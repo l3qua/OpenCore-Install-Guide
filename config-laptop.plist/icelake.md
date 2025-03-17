@@ -99,7 +99,7 @@ Settings relating to boot.efi patching and firmware fixes, for us, we need to ch
 
 | Quirk | Enabled | Comment |
 | :--- | :--- | :--- |
-| DevirtualiseMmio | YES |
+| DevirtualiseMmio | YES | **Do not enable on Chromebooks.**|
 | EnableWriteUnprotector | NO |
 | ProtectMemoryRegions | YES | Chromebooks only, fixes kernel panics triggered by shutdown/restart. |
 | ProtectUefiServices | YES |
@@ -163,6 +163,7 @@ Generally follow these steps when setting up your iGPU properties. Follow the co
 | AAPL,ig-platform-id | Port Count | Comment |
 | ------------------- | ---------- | ------- |
 | **`0000528A`** | 6 | Recommended G4/G7 value |
+|**`0200518A`** | 6 | Use if you encounter display issues after waking from sleep. |
 
 #### Configuration Notes
 
@@ -786,7 +787,7 @@ For those having booting issues, please make sure to read the [Troubleshooting s
 
 ### Enable
 
-* VT-x
+* VT-x/VMX
 * Above 4G Decoding
 * Hyper-Threading
 * Execute Disable Bit

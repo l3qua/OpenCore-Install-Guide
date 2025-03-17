@@ -831,7 +831,7 @@ These are the main options to check for, if you can't find it or an equivalent f
 
 ### Enable
 
-* VT-x (Virtualization Support)
+* VT-x/VMX (Virtualization Support)
 * Above 4G Decoding
 * Hyper-Threading
 * Execute Disable Bit
