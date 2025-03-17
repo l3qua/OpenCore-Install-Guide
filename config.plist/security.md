@@ -10,7 +10,7 @@ OpenCore by default has [Apple Secure Boot](https://dortania.github.io/OpenCore-
 This enables security features such as the verification of macOS' `boot.efi`, with the side effect of restricting which macOS versions OpenCore will boot.
 
 * Big Sur and Above (11.0+): The recommended value is `Default`.
-  * After macOS 14.4, you have to set SecureBootModel to `Disabled` in order to update/install macOS, or it will cause bootloop. 
+  * After macOS 14.4, you have to set SecureBootModel to `Disabled` in order to update/install macOS, or it will cause bootloop.
   * After updating/installing, remember to set it back to `Default` or other values, as not setting it back comes with some security risk.
 * High Sierra-Catalina (10.13-10.15):
   * If your model is not listed below, set to `Disabled`.
