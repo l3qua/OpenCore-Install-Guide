@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /dortania-logo-clear.png
-heroText: Dortania's OpenCore Install Guide
+heroImage: /oc-logo-clear.png
+heroText: auq3l's OpenCore Install Guide
 actionText: Getting Started→
 actionLink: prerequisites.md
 
