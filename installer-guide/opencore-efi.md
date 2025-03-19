@@ -29,9 +29,9 @@ Now something you'll notice is that it comes with a bunch of files in `Drivers` 
 
 | Driver | Status | Description |
 | :--- | :--- | :--- |
-| OpenUsbKbDxe.efi | <span style="color:#30BCD5"> Optional </span> | Required for non-UEFI systems(pre-2012) |
+| OpenUsbKbDxe.efi | <span style="color:#30BCD5"> Optional </span> | Required for non-UEFI systems(pre-2012). **WARNING:** Do not use this on UEFI systems|
 | OpenPartitionDxe.efi | ^^ | Required to boot macOS 10.7-10.9 recovery |
-| ResetNvramEntry.efi | ^^ | Required to reset the system's NVRAM |
+| ResetNvramEntry.efi | ^^ | Required to reset the system's NVRAM. **Note:** This can put strain in the NVRAM chip and actually **bricks** some hardware (ex. Lenovo laptops)|
 | OpenRuntime.efi | <span style="color:red"> Required </span> | Required for proper operation |
 
 ::: details More info on provided drivers
@@ -73,6 +73,11 @@ Now something you'll notice is that it comes with a bunch of files in `Drivers` 
 | Tool | Status | Description |
 | :--- | :--- | :--- |
 | OpenShell.efi | <span style="color:#30BCD5"> Optional </span> | Recommended for easier debugging |
+| CleanNvram.efi | <span style="color:#30BCD5"> Optional </span> | Use this instead of ResetNVRAM if it has a chance of bricking your hardware (ex. Lenovo laptops). **Do not** use this frequently as it will also put strain on the NVRAM chip|
+
+::: warning
+**Do not** keep everything inside Drivers/Tools and only keep what's required as some drivers/tools will conflict with each other or cause problems preventing your system to boot
+:::
 
 A cleaned up EFI:
 
