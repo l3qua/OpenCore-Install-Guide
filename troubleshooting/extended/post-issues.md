@@ -370,16 +370,14 @@ See [here](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sl
 **Note:** This only applies to **some** Dell laptops. If your DSDT has `_S3` in it, the following fixes will work.
 <br>
 
-1. Grab the SSDT and ACPI rename from [meghan6's repo](https://github.com/meghan06/DellAOAC-Hotpatch),
-
-2. Verify the ACPI pathing is correct for your device
-
-3. Place SSDT-S3.aml into your ACPI folder
-
-4. Paste the ACPI rename into ACPI -> Patch
-
+1. Grab the SSDT and ACPI rename from [meghan6's repo](https://github.com/meghan06/DellAOAC-Hotpatch).
+2. Verify the ACPI pathing is correct for your device.
+3. Place `SSDT-S3.aml` into your ACPI folder.
+4. Paste the ACPI rename into `ACPI -> Patch`.
 5. Disable hibernation within macOS:
-   `sudo pmset -a hibernatemode 0`
+   ```sh
+   sudo pmset -a hibernatemode 0
+
 
 ## Unable to see updates in System Settings on macOS Sonoma and newer
 
