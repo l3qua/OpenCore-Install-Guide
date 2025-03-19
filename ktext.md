@@ -416,7 +416,7 @@ Most laptop keyboards are PS2! You will want to grab VoodooPS2 even if you have 
   * For older systems with PS2 keyboards, mice, and trackpads, or when you don't want to use VoodooInput
   * Supports macOS 10.6+
 * [ChromebookPS2](https://github.com/meghan06/ChromebookPS2)
-   * For Chromebooks only. Remaps the top row keys to their intended purpose.
+  * For Chromebooks only. Remaps the top row keys to their intended purpose.
    
 #### SMBus Trackpads
 

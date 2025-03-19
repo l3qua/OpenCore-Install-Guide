@@ -347,12 +347,12 @@ For machines with HDMI 2.0 capable ports with resolution issues, verify the foll
 
 ## Ice Lake Sleep/Wake issues
 
-For Ice Lake machines that encounter problems after waking from sleep. 
+For Ice Lake machines that encounter problems after waking from sleep.
 Before proceeding, we need to determine if your machine has AOAC enabled. AOAC stands for "Always On Always Connected", AKA s0ix sleep.
 
 * Open MaciASL
 * Click on "File > New From ACPI" and select FACP.aml
-* Search for `Low Power S0 Idle`. If the value is `= 1`, it is an AOAC machine. 
+* Search for `Low Power S0 Idle`. If the value is `= 1`, it is an AOAC machine.
   e.g
 
 ```Low Power S0 Idle (V5) : 1```
@@ -369,10 +369,15 @@ See [here](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sl
 3. Re-enabling S3 and disabling s0ix:
 **Note:** This only applies to **some** Dell laptops. If your DSDT has `_S3` in it, the following fixes will work.
 <br>
-1. Grab the SSDT and ACPI rename from [meghan6's repo](https://github.com/meghan06/DellAOAC-Hotpatch), 
+
+1. Grab the SSDT and ACPI rename from [meghan6's repo](https://github.com/meghan06/DellAOAC-Hotpatch),
+
 2. Verify the ACPI pathing is correct for your device
+
 3. Place SSDT-S3.aml into your ACPI folder
+
 4. Paste the ACPI rename into ACPI -> Patch
+
 5. Disable hibernation within macOS:
    `sudo pmset -a hibernatemode 0`
 
