@@ -345,4 +345,10 @@ For machines with HDMI 2.0 capable ports with resolution issues, verify the foll
 * Laptops and many desktop users may need this boot-arg:
   * `-cdfon`
 
+## Unable to see updates in System Settings on macOS Sonoma and newer
+
+As Apple now polls for more T2-specific information from its Macs, you can't see update in System Settings without installing `RestrictEvents.kext` and add "revpatch - sbvmm" under NVRAM (see picture below):
+
+![](./../../images/troubleshooting/troubleshooting-md/nvram-revpatch.png)
+
 For all other troubleshooting, please reference [WhateverGreen's Intel docs](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
