@@ -368,7 +368,6 @@ See [here](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sl
 
 3. Re-enabling S3 and disabling s0ix:
 **Note:** This only applies to **some** Dell laptops. If your DSDT has `_S3` in it, the following fixes will work.
-<br>
 
 a. Grab the SSDT and ACPI rename from [meghan6's repo](https://github.com/meghan06/DellAOAC-Hotpatch).
 b. Verify the ACPI pathing is correct for your device.
