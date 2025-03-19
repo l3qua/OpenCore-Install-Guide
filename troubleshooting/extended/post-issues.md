@@ -369,11 +369,11 @@ See [here](https://github.com/5T33Z0/OC-Little-Translated/tree/main/04_Fixing_Sl
 3. Re-enabling S3 and disabling s0ix:
 **Note:** This only applies to **some** Dell laptops. If your DSDT has `_S3` in it, the following fixes will work.
 
-a. Grab the SSDT and ACPI rename from [meghan6's repo](https://github.com/meghan06/DellAOAC-Hotpatch).
-b. Verify the ACPI pathing is correct for your device.
-c. Place `SSDT-S3.aml` into your ACPI folder.
-d. Paste the ACPI rename into `ACPI -> Patch`.
-e. Disable hibernation within macOS:
+* Grab the SSDT and ACPI rename from [meghan6's repo](https://github.com/meghan06/DellAOAC-Hotpatch).
+* Verify the ACPI pathing is correct for your device.
+* Place `SSDT-S3.aml` into your ACPI folder.
+* Paste the ACPI rename into `ACPI -> Patch`.
+* Disable hibernation within macOS:
 
 ```sh
 sudo pmset -a hibernatemode 0
