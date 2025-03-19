@@ -287,6 +287,22 @@ cd ~
 sudo cp -a /usr/standalone/i386/. /System/Volumes/Preboot/CD844C38-1A25-48D5-9388-5D62AA46CFB8/System/Library/CoreServices
 ```
 
+## Stuck on `OCB: LoadImage failed - Unsupported`
+
+```
+OCB: LoadImage failed - Unsupported
+OCB: System has no boot entries
+OC: Failed to show boot menu!
+Halting on critical error
+```
+
+This series of errors is most likely one of the following:
+
+* Missing HfsPlus driver:
+ * Either missing entirely, not properly defined in config.plist, or not properly executing. Switch to Debug Logs to verify.
+* Corrupted BaseSystem.dmg file, and its Hash code does not match the one from .chunklist.
+* File System corruption or invalid partition table.
+
 ## Stuck on `OCABC: Memory pool allocation failure - Not Found`
 
 This is due to incorrect BIOS settings:
@@ -353,6 +369,28 @@ This error happens when SMBIOS is one no longer supported by that version of mac
 * MacBook10,1
 * MacBookAir8,1+
 * MacBookPro14,x+
+
+:::
+
+::: details Supported SMBIOS in macOS 14, Sonoma
+
+* iMac19,x+
+* iMacPro1,1
+* MacPro7,1
+* Macmini8,1
+* MacBookAir8,1+
+* MacBookPro15,x+
+
+:::
+
+::: details Supported SMBIOS in macOS 15, Sequoia (latest)
+
+* iMac19,x+
+* iMacPro1,1
+* MacPro7,1
+* Macmini8,1
+* MacBookAir9,1
+* MacBookPro15,x+
 
 :::
 
