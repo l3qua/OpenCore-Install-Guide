@@ -27,6 +27,7 @@ For the majority of systems, you'll only need 2 `.efi` drivers to get up and run
 * [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)(<span style="color:red">Required</span>)
   * Needed for seeing HFS volumes(ie. macOS Installers and Recovery partitions/images). **Do not mix other HFS drivers**
   * For Sandy Bridge and older(as well as low end Ivy Bridge(i3 and Celerons), see the legacy section below
+  * This is **different** from `OpenHfsPlus.efi` that is bundled in OpenCorePkg and faster than the bundled one
 * [OpenRuntime.efi](https://github.com/acidanthera/OpenCorePkg/releases)(<span style="color:red">Required</span>)
   * Replacement for [AptioMemoryFix.efi](https://github.com/acidanthera/AptioFixPkg), used as an extension for OpenCore to help with patching boot.efi for NVRAM fixes and better memory management.
   * Reminder this was bundled in OpenCorePkg we downloaded earlier

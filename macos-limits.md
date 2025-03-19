@@ -131,14 +131,20 @@ Unfortunately many features in macOS are outright unsupported with AMD and many 
 
 ## GPU Support
 
+**Note:** This is just a breakdown and you should read the [GPU Buyers guide](https://dortania.github.io/GPU-Buyers-Guide/) to know if your GPU is actually supported or not.  
 GPU support becomes much more complicated due to the near-infinite amount of GPUs on the market, but the general breakdown is as follows:
 
-* AMD's GCN based GPUs are supported up to MacOS 12.6.x | Polaris, Vega and Navi are supported in the latest version of MacOS
-  * AMD APUs are not supported however
+* AMD's GPU support is complicated:
+  * AMD's Polaris, Vega and Navi based GPUs are supported in the latest version of MacOS
+    * AMD's Navi 21 series are actually non-natively supported with [NootRX]()
+  * AMD's GCN based GPUs are supported up to MacOS 12.7.x
+  * ~~AMD APUs are not supported however~~
+    * Some AMD APUs are actually (non-natively) supported with [NootedRed](https://github.com/ChefKissInc/NootedRed)
   * AMD's [Lexa based cores](https://www.techpowerup.com/gpu-specs/amd-lexa.g806) from the Polaris series are also not supported
+    * Some AMD's Lexa based cards works with spoofing (check [GPU Buyers guide](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#polaris-10-and-20-series) for more info)
   * Special note for MSI Navi users: [Installer not working with 5700XT #901](https://github.com/acidanthera/bugtracker/issues/901)
     * This issue is no longer present in macOS 11 (Big Sur).
-* NVIDIA's GPU support is complicated:
+* NVIDIA's GPU support is also complicated:
   * [Maxwell(9XX)](https://en.wikipedia.org/wiki/GeForce_900_series) and [Pascal(10XX)](https://en.wikipedia.org/wiki/GeForce_10_series) GPUs are limited to macOS 10.13: High Sierra
   * [NVIDIA's Turing(20XX,](https://en.wikipedia.org/wiki/GeForce_20_series)[16XX)](https://en.wikipedia.org/wiki/GeForce_16_series) GPUs are **not supported in any version of macOS**
   * [NVIDIA's Ampere(30XX)](https://en.wikipedia.org/wiki/GeForce_30_series) GPUs are **not supported in any version of macOS**
@@ -191,7 +197,7 @@ And an important note for **Laptops with discrete GPUs**:
 | [Vega 10](https://en.wikipedia.org/wiki/Radeon_RX_Vega_series) | 10.12.6 | ^^ | ^^ |
 | [Vega 20](https://en.wikipedia.org/wiki/Radeon_RX_Vega_series) | 10.14.5 | ^^ | ^^ |
 | [Navi 10](https://en.wikipedia.org/wiki/Radeon_RX_5000_series) | 10.15.1 | ^^ | Requires `agdpmod=pikera` in boot-args |
-| [Navi 20](https://en.wikipedia.org/wiki/Radeon_RX_6000_series) | 11.4 | ^^ | <span style="color:yellow"> Currently only some Navi 21 models are working </span> |
+| [Navi 20](https://en.wikipedia.org/wiki/Radeon_RX_6000_series) | 11.4 | ^^ | Most Navi 21 and 23 cards currently require the boot argument `agdpmod=pikera` to get a display out. |
 
 :::
 
