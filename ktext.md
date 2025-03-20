@@ -348,7 +348,7 @@ However ProperTree will handle this for you, so you need not concern yourself
 
 ### AMD CPU Specific kexts
 
-* [XLNCUSBFIX](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/XLNCUSBFix.kext.zip)
+* [XLNCUSBFIX](https://github.com/l3qua/OpenCore-Install-Guide/blob/master/extra-files/XLNCUSBFix.kext.zip)
   * USB fix for AMD FX systems, not recommended for Ryzen
   * Requires macOS 10.13 or newer
 * [VoodooHDA](https://sourceforge.net/projects/voodoohda/)
@@ -377,7 +377,7 @@ However ProperTree will handle this for you, so you need not concern yourself
   * Requires macOS 10.14 or newer
 * [SATA-Unsupported](https://github.com/khronokernel/Legacy-Kexts/blob/master/Injectors/Zip/SATA-unsupported.kext.zip)
   * Adds support for a large variety of SATA controllers, mainly relevant for laptops which have issues seeing the SATA drive in macOS. We recommend testing without this first.
-  * Big Sur+ Note: [CtlnaAHCIPort](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip) will need to be used instead due to numerous controllers being dropped from the binary itself
+  * Big Sur+ Note: [CtlnaAHCIPort](https://github.com/l3qua/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip) will need to be used instead due to numerous controllers being dropped from the binary itself
     * Catalina and older need not concern
 * [CPUTopologyRebuild](https://github.com/b00t0x/CpuTopologyRebuild)
   * An experimental Lilu plugin that optimizes Alder Lake's heterogeneous core configuration. **Only for Alder Lake CPUs**

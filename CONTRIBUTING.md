@@ -42,7 +42,7 @@ Best way to test your commits and make sure they are formatted correctly is by d
 
 Simple step-by-steps:
 
-* [Fork this repo](https://github.com/dortania/OpenCore-Install-Guide/fork/)
+* [Fork this repo](https://github.com/l3qua/OpenCore-Install-Guide/fork/)
 * Install the required tools:
   * [Node.js](https://nodejs.org/)
 * Make your changes.
@@ -71,11 +71,11 @@ While Dortania's guide are primarily English based, we know there's plenty of ot
 
 Main things to keep in mind:
 
-* Translations must be a dedicated fork and won't be merged into Dortania's guide
-* Forks must indicate they're translations of Dortania and are not official
+* Translations must be a dedicated fork and won't be merged into the guide
+* Forks must indicate they're translations of the guide and are not official
 * Forks must also comply with our [License](LICENSE.md)
 
-If the above are met, you're free to host your translation without issue! Dortania's sites are built with [VuePress](https://vuepress.vuejs.org) using [GitHub Actions](https://github.com/features/actions) and finally hosted on [GitHub Pages](https://pages.github.com), so there is no cost to hosting your own translation.
+If the above are met, you're free to host your translation without issue! Guides are built with [VuePress](https://vuepress.vuejs.org) using [GitHub Actions](https://github.com/features/actions) and finally hosted on [GitHub Pages](https://pages.github.com), so there is no cost to hosting your own translation.
 
 If you have any questions or concerns with either translations or hosting, feel free to reach out on our [Bugtracker](https://github.com/dortania/bugtracker).
 

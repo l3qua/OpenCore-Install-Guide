@@ -55,7 +55,7 @@ module.exports = {
 
     themeConfig: {
         lastUpdated: true,
-        repo: 'https://github.com/dortania/OpenCore-Install-Guide',
+        repo: 'https://github.com/l3qua/OpenCore-Install-Guide',
         editLinks: true,
         editLinkText: 'Help us improve this page!',
         logo: '/homepage.png',
@@ -280,7 +280,7 @@ module.exports = {
                 '/extras/kaslr-fix',
                 '/extras/spoof',
                 '/extras/ventura',
-                ['https://github.com/dortania/OpenCore-Install-Guide/tree/master/clover-conversion', 'Clover Conversion'],
+                ['https://github.com/l3qua/OpenCore-Install-Guide/tree/master/clover-conversion', 'Clover Conversion'],
                 '/extras/smbios-support.md',
             ]
         },

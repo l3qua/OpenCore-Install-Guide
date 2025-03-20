@@ -47,7 +47,7 @@ The main culprits to watch for in the Booter section are:
       * SyncRuntimePermissions -> False
     * Note: Some laptops(ex. Dell Inspiron 5370) even with MATs support will halt on boot up, in these cases you'll have two options:
       * Boot with the old firmware quirk combo(ie. With EnableWriteUnprotector and disable `RebuildAppleMemoryMap` + `SyncRuntimePermissions`)
-      * Enable `DevirtualiseMmio` and follow [MmioWhitelist guide](https://dortania.github.io/OpenCore-Install-Guide/extras/kaslr-fix.html)
+      * Enable `DevirtualiseMmio` and follow [MmioWhitelist guide](https://auq3l.is-a.dev/OpenCore-Install-Guide/extras/kaslr-fix.html)
 
 Regarding MATs support, firmwares built against EDK 2018 will support this and many OEMs have even added support all the way back to Skylake laptops. Issue is it's not always obvious if an OEM has updated the firmware, you can check the OpenCore logs whether yours supports it([See here how to get a log](../debug.html)):
 
@@ -472,10 +472,10 @@ This assumes you're only booting the installer USB and not macOS itself.
 * Sometimes, if the USB is plugged into a 3.x port, plugging it into a 2.0 port can fix this error and vice versa.
 
 * For AMD's 15h and 16h CPUs, you may need to add the following:
-  * [XLNCUSBFix.kext](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/XLNCUSBFix.kext.zip)
+  * [XLNCUSBFix.kext](https://github.com/l3qua/OpenCore-Install-Guide/blob/master/extra-files/XLNCUSBFix.kext.zip)
 
 * If XLNCUSBFix still doesn't work, then try the following alongside XLNCUSBFix:
-  * [AMD StopSign-fixv5](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/StopSign-fixv5.zip)
+  * [AMD StopSign-fixv5](https://github.com/l3qua/OpenCore-Install-Guide/blob/master/extra-files/StopSign-fixv5.zip)
 
 * X299 Users: Enable "Above 4G Decoding"
   * Odd firmware bug on X299 where USB breaks otherwise
@@ -496,7 +496,7 @@ On rare occasions(mainly laptops), the SATA controller isn't officially supporte
 * [SATA-unsupported.kext](https://github.com/khronokernel/Legacy-Kexts/blob/master/Injectors/Zip/SATA-unsupported.kext.zip)
   * Adds support to obscure SATA controllers, commonly being laptops.
   * For very legacy SATA controllers, [AHCIPortInjector.kext](https://www.insanelymac.com/forum/files/file/436-ahciportinjectorkext/) may be more suitable.
-* [Catalina's patched AppleAHCIPort.kext](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip)
+* [Catalina's patched AppleAHCIPort.kext](https://github.com/l3qua/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip)
   * For users running macOS 11, Big Sur and having issues. This backports the known working Catalina kext, SATA-unsupported is not needed with this kext
 
 Note that you will only experience this issue after installing macOS onto the drive, booting the macOS installer will not error out due to SATA issues.

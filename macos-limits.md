@@ -136,7 +136,7 @@ GPU support becomes much more complicated due to the near-infinite amount of GPU
 
 * AMD's GPU support is complicated:
   * AMD's Polaris, Vega and Navi based GPUs are supported in the latest version of MacOS
-    * AMD's Navi 21 series are actually non-natively supported with [NootRX]()
+    * AMD's Navi 21 series are actually non-natively supported with [NootRX](https://github.com/ChefKissInc/NootRX)
   * AMD's GCN based GPUs are supported up to MacOS 12.7.x
   * ~~AMD APUs are not supported however~~
     * Some AMD APUs are actually (non-natively) supported with [NootedRed](https://github.com/ChefKissInc/NootedRed)

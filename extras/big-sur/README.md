@@ -74,7 +74,7 @@ Not much hardware has been dropped, though the few that have:
   * Potential work-around is to inject a patched IO80211Family, see here for more details: [IO80211 Patches](https://github.com/khronokernel/IO80211-Patches)
 * Certain SATA controllers dropped
   * For some reason, Apple removed the AppleIntelPchSeriesAHCI class from AppleAHCIPort.kext. Due to the outright removal of the class, trying to spoof to another ID (generally done by SATA-unsupported.kext) can fail for many and create instability for others.
-  * A partial fix is to inject Catalina's version with any conflicting symbols being patched. You can find a sample kext here: [Catalina's patched AppleAHCIPort.kext](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip)
+  * A partial fix is to inject Catalina's version with any conflicting symbols being patched. You can find a sample kext here: [Catalina's patched AppleAHCIPort.kext](https://github.com/l3qua/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip)
   * We recommend setting the MinKernel value to 20.0.0 for the kext `CtlnaAHCIPort.kext` to avoid any potential conflicts. This way, it will work in both Catalina and Big Sur so you can remove SATA-unsupported if you want.
 
 Other notable changes:
@@ -139,7 +139,7 @@ With Big Sur, quite a bit broke. Mainly the following:
   * Setting MaxKernel to 19.9.9 for AirPortBrcm4360_Injector.kext may help. More information [from the repo](https://github.com/acidanthera/AirportBrcmFixup/blob/master/README.md#please-pay-attention)
 * SATA Support broken
   * Due to Apple dropping the AppleIntelPchSeriesAHCI class in AppleAHCIPort.kext
-  * To resolve, add [Catalina's patched AppleAHCIPort.kext](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip) with the MinKernel set to 20.0.0
+  * To resolve, add [Catalina's patched AppleAHCIPort.kext](https://github.com/l3qua/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip) with the MinKernel set to 20.0.0
 * XhciPortLimit broken in macOS 11.3 Beta 2 and newer
   * With macOS 11.3 and newer, [XhciPortLimit is broken resulting in boot loops](https://github.com/dortania/bugtracker/issues/162). We advise users either install an older OS(ie. macOS 10.15, Catalina) or find a 11.2.3 or older Big Sur installer
     * For education purposes, we have a copy provided here: [macOS 11.2.3 InstallAssistant(macOS)](https://archive.org/details/install-mac-os-11.2.3-20-d-91)

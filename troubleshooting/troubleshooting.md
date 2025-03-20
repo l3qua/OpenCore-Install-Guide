@@ -4,6 +4,10 @@ This section is for those having issues booting either OpenCore, macOS or having
 
 **And if your issue is not covered, please read the official OpenCore documentation: [Configuration.pdf](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)**. This document goes into much more technical detail around how OpenCore works and has much more detailed info on all supported quirks.
 
+::: warning
+**Only** reset your NVRAM when troubleshooting when it's **really** needed and safe. **DON'T RESET NVRAM** on hardwares that can't do NVRAM reset (ie. [Lenovo laptops](https://www.reddit.com/r/hackintosh/comments/klj6nu/dont_ever_press_the_button_nvram_reset_really/)), if you need to reset OC's NVRAM variables then use `CleanNvram.efi` (bundled with OpenCorePkg) for those hardwares
+:::
+
 ## Table of Contents
 
 If you're unsure where you're currently stuck, please see here: [Understanding the macOS Boot Process](../troubleshooting/boot.md)

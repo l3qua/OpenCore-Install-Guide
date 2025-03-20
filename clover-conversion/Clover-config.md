@@ -8,7 +8,7 @@ So this little(well not so little as I reread this...) page is for users who are
 
 # Kexts and Firmware drivers
 
-See [Kexts and Firmware drivers](https://github.com/dortania/OpenCore-Install-Guide/blob/master/clover-conversion/clover-efi.md).
+See [Kexts and Firmware drivers](https://github.com/l3qua/OpenCore-Install-Guide/blob/master/clover-conversion/clover-efi.md).
 
 # Acpi
 
@@ -100,7 +100,7 @@ So with the transition from Clover to OpenCore we should start removing unneeded
   * `Kernel -> Quirks -> ExternalDiskIcons -> YES`
 
 * **FixADP1**:
-  * Renames device `AC0_` to `ADP1`, see [Rename-SSDT](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/Rename-SSDT.dsl) for an example
+  * Renames device `AC0_` to `ADP1`, see [Rename-SSDT](https://github.com/l3qua/OpenCore-Install-Guide/blob/master/extra-files/Rename-SSDT.dsl) for an example
   * Also injects `Name (_PRW, Package (0x02) {0x1C,0x03})` into the device if not present. [Source](https://github.com/CloverHackyColor/CloverBootloader/blob/81f2b91b1552a4387abaa2c48a210c63d5b6233c/rEFIt_UEFI/Platform/FixBiosDsdt.cpp#L1677-L1692)
 
 * **FixRTC**:
@@ -382,7 +382,7 @@ For others like InjectAti, see the [Sample.dsl](https://github.com/acidanthera/W
 
 In most cases it is advisable to use WhateverGreen, which handles this automatically. This SSDT is not needed if WhateverGreen is used.
 
-* [Radeon-DeInit-SSDT](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/Radeon-DeInit-SSDT.dsl)
+* [Radeon-DeInit-SSDT](https://github.com/l3qua/OpenCore-Install-Guide/blob/master/extra-files/Radeon-DeInit-SSDT.dsl)
   * Do note that this is meant for GFX0, adjust for your system
 
 # Kernel and Kext Patches

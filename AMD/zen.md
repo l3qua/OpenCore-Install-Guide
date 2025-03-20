@@ -80,7 +80,7 @@ Settings relating to boot.efi patching and firmware fixes, for us, we need to ch
 
 | Quirk | Enabled | Comment |
 | :--- | :--- | :--- |
-| DevirtualiseMmio | NO | If you have a TRx40 system, enable this and follow the instructions here: <https://dortania.github.io/OpenCore-Install-Guide/extras/kaslr-fix.html> |
+| DevirtualiseMmio | NO | If you have a TRx40 system, enable this and follow the instructions here: <https://auq3l.is-a.dev/OpenCore-Install-Guide/extras/kaslr-fix.html> |
 | EnableWriteUnprotector | NO | |
 | RebuildAppleMemoryMap | YES | |
 | ResizeAppleGpuBars | -1 | If your firmware supports increasing GPU Bar sizes (ie Resizable BAR Support), set this to `0` |

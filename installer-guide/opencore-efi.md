@@ -31,7 +31,7 @@ Now something you'll notice is that it comes with a bunch of files in `Drivers` 
 | :--- | :--- | :--- |
 | OpenUsbKbDxe.efi | <span style="color:#30BCD5"> Optional </span> | Required for non-UEFI systems(pre-2012). **WARNING:** Do not use this on UEFI systems|
 | OpenPartitionDxe.efi | ^^ | Required to boot macOS 10.7-10.9 recovery |
-| ResetNvramEntry.efi | ^^ | Required to reset the system's NVRAM. **Note:** This can put strain in the NVRAM chip and actually **bricks** some hardware (ex. Lenovo laptops)|
+| ResetNvramEntry.efi | ^^ | Only use this if it's **really** needed and safe. More info [here](./../troubleshooting/troubleshooting.html#general-troubleshooting)|
 | OpenRuntime.efi | <span style="color:red"> Required </span> | Required for proper operation |
 
 ::: details More info on provided drivers
@@ -73,7 +73,7 @@ Now something you'll notice is that it comes with a bunch of files in `Drivers` 
 | Tool | Status | Description |
 | :--- | :--- | :--- |
 | OpenShell.efi | <span style="color:#30BCD5"> Optional </span> | Recommended for easier debugging |
-| CleanNvram.efi | <span style="color:#30BCD5"> Optional </span> | Use this instead of ResetNVRAM if it has a chance of bricking your hardware (ex. Lenovo laptops). **Do not** use this frequently as it will also put strain on the NVRAM chip|
+| CleanNvram.efi | <span style="color:#30BCD5"> Optional </span> | Use this instead of ResetNVRAM if it has a chance of bricking your hardware. More info [here](./../troubleshooting/troubleshooting.html#general-troubleshooting)|
 
 ::: warning
 **Do not** keep everything inside Drivers/Tools and only keep what's required as some drivers/tools will conflict with each other or cause problems preventing your system to boot
@@ -85,7 +85,7 @@ A cleaned up EFI:
 
 Now you can place **your** necessary firmware drivers(.efi) into the _Drivers_ folder and Kexts/ACPI into their respective folders. See [Gathering Files](../ktext.md) for more info on which files you should be using.
 
-* Please note that UEFI drivers from Clover are not supported with OpenCore!(EmuVariableUEFI, AptioMemoryFix, OsxAptioFixDrv, etc). Please see the [Clover firmware driver conversion](https://github.com/dortania/OpenCore-Install-Guide/blob/master/clover-conversion/clover-efi.md) for more info on supported drivers and those merged into OpenCore.
+* Please note that UEFI drivers from Clover are not supported with OpenCore!(EmuVariableUEFI, AptioMemoryFix, OsxAptioFixDrv, etc). Please see the [Clover firmware driver conversion](https://github.com/l3qua/OpenCore-Install-Guide/blob/master/clover-conversion/clover-efi.md) for more info on supported drivers and those merged into OpenCore.
 
 Here's what a populated EFI **_can_** look like (yours will be different):
 

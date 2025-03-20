@@ -25,7 +25,7 @@ No good guide is made by one man, here's credit to those who've helped out:
   * For both writing and maintaining the guide
 * [kernel](https://github.com/kernel-dev)
   * For OCSysInfo
-* [all the GitHub contributors](https://github.com/dortania/OpenCore-Install-Guide/graphs/contributors)
+* [all the GitHub contributors](https://github.com/l3qua/OpenCore-Install-Guide/graphs/contributors)
 * [and the rest of the dortania team](https://github.com/dortania) for helping out
   
 And to the rest who've helped out as well, thank you!
@@ -50,7 +50,7 @@ Guides linked or those that inspired this guide:
 * [AppleALC Supported Codecs](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs)
 * [gfxutil](https://github.com/acidanthera/gfxutil/releases)
 
-And for those who have recommendations or issues with this guide, you can find the GitHub repo for this site [here](https://github.com/dortania/OpenCore-Install-Guide).
+And for those who have recommendations or issues with this guide, you can find the GitHub repo for this site [here](https://github.com/l3qua/OpenCore-Install-Guide).
 
 **Sources**:
 
