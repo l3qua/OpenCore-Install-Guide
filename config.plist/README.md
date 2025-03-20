@@ -22,8 +22,6 @@ For the rest of this guide, you're gonna need some form of plist editing. And fo
 
 * [ProperTree](https://github.com/corpnewt/ProperTree)
   * Universal plist editor
-* [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
-  * For generating our SMBIOS data
 
 Next, let's open ProperTree and edit our config.plist:
 
