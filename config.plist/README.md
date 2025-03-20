@@ -18,7 +18,7 @@ Next lets move it onto our USB's EFI partition(will be called BOOT on Windows) u
 
 ## Adding your SSDTs, Kexts and Firmware Drivers
 
-For the rest of this guide, you're gonna need some form of plist editing. And for our guide, we'll be using ProperTree and GenSMBIOS to help automate some of the tedious work:
+For the rest of this guide, you're gonna need some form of plist editing. And for this part, we'll be using ProperTree to help automate some of the tedious work:
 
 * [ProperTree](https://github.com/corpnewt/ProperTree)
   * Universal plist editor
