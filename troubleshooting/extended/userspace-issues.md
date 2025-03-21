@@ -38,7 +38,7 @@ date 0901000019
 
 In High Sierra recovery, open Terminal. Run either
 
-* ```nvram IASUCatalogURL="http://swscan.apple.com/content/catalogs/others/index-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog"```
+* ```nvram IASUCatalogURL="http://swscan.apple.com/content/catalogs/others/index-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog"```  
 or
 * run the installer at least once, quit, open Terminal, then ```nvram IASUCatalogURL="http://$(grep -oE "swscan.*?sucatalog /var/log/install.log | head -n 1)"```
 
