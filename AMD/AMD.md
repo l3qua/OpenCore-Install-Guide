@@ -4,7 +4,9 @@
 :::info `AMD Bulldozer (15h)` and newer CPUs are supported, using the AMD Vanilla patches! By the way, AMD Laptop CPUs are the same as AMD Desktop CPUs.:::
 
 ## Requirements
+
 ### CPU Requirements
+
 **SSE requirements**
 
 * `SSE3` is required for **all Intel versions** of macOS
