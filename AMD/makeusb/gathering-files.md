@@ -22,4 +22,3 @@ And then, move the `Sample.plist` from (the OpenCorePkg folder)/Docs to your USB
 And then rename it to config.plist:
 
 ![](../../images/AMD/copyandrenameconfig.png)
-
