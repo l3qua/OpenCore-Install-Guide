@@ -132,7 +132,7 @@ module.exports = {
             children: [{
                 title: 'Making the USB',
                 collapsable: true,
-                path: '/AMD/makeusb/README.md',
+                path: '/AMD/makeusb/',
             },
             {
                 title: 'Getting Files',
