@@ -15,7 +15,8 @@ A release build (optimized) is a build type where the code is optimised in the c
 ### Preparing the EFI
 
 As you can see in the extracted folder, there are four folders, two of which are named **IA32** and **X64**, the former of which are for 32-bit firmwares, and the latter for 64-bit firmwares. Copy whichever you think your firmware supports to ***the root*** of your USB (Copy the EFI folder inside it, not IA32 or X64).
-:::warning Please use X64 folder for X64 firmwares.
+:::warning Warning
+Please use X64 folder for X64 firmwares.
 :::
 
 And then, move the `Sample.plist` from (the OpenCorePkg folder)/Docs to your USB -> EFI -> OC:
