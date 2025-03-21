@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /oc-logo-clear.png
-heroText: auq3l's OpenCore Install Guide
+heroText: MineTurtlee's OpenCore Install Guide
 actionText: Getting Started→
 actionLink: prerequisites.md
 
