@@ -8,7 +8,7 @@ After downloading [OpenCorePkg (**pleeeeeeease grab the debug build**)](https://
 
 ![](../../images/AMD/AMD-Gathering-Files/PutInDesktop.png)
 
-:::tip Info 
+:::tip Info
 A release build (optimized) is a build type where the code is optimised in the compilation process speeding up execution and removing debugging information. In contrast, an unoptimised debug build contains more debugging information and logs, but is significantly slower than an optimised build. Use debug builds only when troubleshooting.
 :::
 

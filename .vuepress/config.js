@@ -127,7 +127,7 @@ module.exports = {
         },
         {
             title: 'AMD Guide',
-            collapsable: true,
+            collapsable: false,
             path: '/AMD/',
             children: [{
                 title: 'Making the USB',
