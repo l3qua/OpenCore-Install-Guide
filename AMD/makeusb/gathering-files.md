@@ -17,8 +17,8 @@ As you can see in the extracted folder, there are four folders, two of which are
 
 And then, move the `Sample.plist` from (the OpenCorePkg folder)/Docs to your USB -> EFI -> OC:
 
-![](../../images/AMD/grabthesampledotplist.png)
+![](../../images/AMD/AMD-Gathering-Files/grabthesampledotplist.png)
 
 And then rename it to config.plist:
 
-![](../../images/AMD/copyandrenameconfig.png)
+![](../../images/AMD/AMD-Gathering-Files/copyandrenameconfig.png)
