@@ -1,7 +1,7 @@
 # AMD Subguide
 
-:::warning This page is made with AMD-based machines/CPUs in mind, and is based off the ChefsKiss guide. Please move [here](../installer-guide/opencore-efi.md) if you're looking to make an EFI for Intel-based computers/CPUs.:::
-:::info `AMD Bulldozer (15h)` and newer CPUs are supported, using the AMD Vanilla patches! By the way, AMD Laptop CPUs are the same as AMD Desktop CPUs.:::
+:::warning This page is made with AMD-based machines/CPUs in mind, and is based off the ChefsKiss guide. Please move [here](../installer-guide/opencore-efi.md) if you're looking to make an EFI for Intel-based computers/CPUs. :::
+:::info `AMD Bulldozer (15h)` and newer CPUs are supported, using the AMD Vanilla patches! By the way, AMD Laptop CPUs are the same as AMD Desktop CPUs. :::
 
 ## Requirements
 
