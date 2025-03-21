@@ -139,7 +139,7 @@ module.exports = {
                 collapsable: true,
                 path: '/AMD/gathering-files.md',
             }]
-        }
+        },
         {
             title: 'Configs',
             collapsable: false,
