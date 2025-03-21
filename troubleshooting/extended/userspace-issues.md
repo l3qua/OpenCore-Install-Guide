@@ -41,7 +41,8 @@ In High Sierra recovery, open Terminal. Run either
 * ```nvram IASUCatalogURL="http://swscan.apple.com/content/catalogs/others/index-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog"```  
 or
 * Run the installer at least once, quit, open Terminal, then ```nvram IASUCatalogURL="http://$(grep -oE "swscan.*?sucatalog /var/log/install.log | head -n 1)"```
- (less typing, basically we grab the URL from the error message 😛)  
+ (less typing, basically we grab the URL from the error message 😛)
+
 The reason why we have to do this is because when the installer tries to communicate to Apple server with the https link, the SSL of the link expires, and the installer gives out an error, so we have to run this to change the installer link from "https" to "http" so it won't give out any issues/errors about SSL
 
 Run `nvram -d IASUCatalogURL` after install is complete (or before using another installer app) to revert the changes.
