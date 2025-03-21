@@ -1,4 +1,4 @@
 # Gathering Files
 | Prerequisites |
 | :--- |
-| [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg/releases/)
+| [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg/releases/) |
