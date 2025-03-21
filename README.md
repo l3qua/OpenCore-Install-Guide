@@ -10,7 +10,7 @@ meta:
   content: Current supported version 1.0.2
 ---
 
-# Note: This is a fork of the [Original guide](https://dortania.github.io/OpenCore-Install-Guide/)
+# Note: This is a fork a [fork](https://auq3l.is-a.dev/OpenCore-Install-Guide) of the [Original guide](https://dortania.github.io/OpenCore-Install-Guide/)
 
 # What is OpenCore and who is this guide for
 
