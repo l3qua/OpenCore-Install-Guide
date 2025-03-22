@@ -218,4 +218,6 @@ You'll notice that once we open the EFI partition, it's empty. This is where the
 
 ## Now with all of this done, head to [Setting up the EFI](./opencore-efi.md) to finish up your work
 
-:::info **For users using AMD computers, head [here](../AMD/makeusb/gathering-files.md)**:::
+:::tips Info
+For users using AMD computers, head [here](../AMD/makeusb/gathering-files.md)
+:::

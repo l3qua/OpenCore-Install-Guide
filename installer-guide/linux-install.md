@@ -164,4 +164,6 @@ This is the only way to install macOS without an internet connection (without a 
 
 ## Now with all this done, head to [Setting up the EFI](./opencore-efi.md) to finish up your work
 
-:::info **For users using AMD computers, head [here](../AMD/makeusb/gathering-files.md)**:::
+:::tips Info
+For users using AMD computers, head [here](../AMD/makeusb/gathering-files.md)
+:::

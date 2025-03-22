@@ -45,7 +45,8 @@ Because SSDTTime does not have any releases (because it's purely Python), downlo
 
 ### Running SSDTTime
 
-After extracting the ZIP, <span style="color:cyan">**Windows users**</span> should run `SSDTTime.bat`, <span style="color:orange">**Linux users** will have to open terminal inside the extracted ***SSDTTime/SSDTTime-master*** directory and then run 
+After extracting the ZIP, <span style="color:cyan">**Windows users**</span> should run `SSDTTime.bat`, <span style="color:orange">**Linux users** will have to open terminal inside the extracted ***SSDTTime/SSDTTime-master*** directory and then run
+
 ```sh
 python3 SSDTTime.py
 ```
