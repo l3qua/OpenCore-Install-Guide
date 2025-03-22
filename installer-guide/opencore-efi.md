@@ -73,7 +73,6 @@ Now something you'll notice is that it comes with a bunch of files in `Drivers` 
 | Tool | Status | Description |
 | :--- | :--- | :--- |
 | OpenShell.efi | <span style="color:#30BCD5"> Optional </span> | Recommended for easier debugging |
-| CleanNvram.efi | <span style="color:#30BCD5"> Optional </span> | Use this instead of ResetNVRAM if it has a chance of bricking your hardware. More info [here](./../troubleshooting/troubleshooting.html#general-troubleshooting)|
 
 ::: warning
 **Do not** keep everything inside Drivers/Tools and only keep what's required as some drivers/tools will conflict with each other or cause problems preventing your system to boot

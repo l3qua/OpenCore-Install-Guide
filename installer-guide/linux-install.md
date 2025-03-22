@@ -158,6 +158,10 @@ In terminal:
       * It will take some time. A LOT if you're using a slow USB (took me about less than 5 minutes with a fast USB2.0 drive).
       ![](../images/installer-guide/linux-install-md/unknown-21.png)
 
+## Making an offline installer
+
+This is the only way to install macOS without an internet connection (without a mac) if you can't set up one right now. For instructions on how to do it, read the README.md file in [Unplugged Repo](https://github.com/corpnewt/UnPlugged?tab=readme-ov-file)
+
 ## Now with all this done, head to [Setting up the EFI](./opencore-efi.md) to finish up your work
 
 :::info **For users using AMD computers, head [here](../AMD/makeusb/gathering-files.md)**:::
