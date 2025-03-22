@@ -38,14 +38,6 @@ date 0901000019
 
 In High Sierra recovery, open Terminal. Run either
 
-<<<<<<< HEAD
-* ```nvram IASUCatalogURL="http://swscan.apple.com/content/catalogs/others/index-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog"```
-or
-* run the installer at least once, quit, open Terminal, then ```nvram IASUCatalogURL="http://$(grep -oE "swscan.*?sucatalog /var/log/install.log | head -n 1)"```
-
-Run `nvram -d IASUCatalogURL` after install is complete (or before using another installer app) to revert the changes.
-
-=======
 * ```nvram IASUCatalogURL="http://swscan.apple.com/content/catalogs/others/index-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog"```  
 or
 * Run the installer at least once, quit, open Terminal, then ```nvram IASUCatalogURL="http://$(grep -oE "swscan.*?sucatalog /var/log/install.log | head -n 1)"```
@@ -59,7 +51,6 @@ Run `nvram -d IASUCatalogURL` after install is complete (or before using another
 You can use CorpNewt's tool called [HSURL](https://github.com/corpnewt/HSURL) as a shorter way if you don't want to type in the nvram command every time you want to reinstall High Sierra
 :::
 
->>>>>>> f6af3bf585b7f8afb9b1a7eaa9c7fd3241a990db
 ## Stuck on or near `IOConsoleUsers: gIOScreenLock...`/`gIOLockState (3...`
 
 This is right before the GPU is properly initialized, verify the following:
