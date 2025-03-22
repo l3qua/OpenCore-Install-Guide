@@ -144,6 +144,11 @@ GPU support becomes much more complicated due to the near-infinite amount of GPU
     * Some AMD's Lexa based cards works with spoofing (check [GPU Buyers guide](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#polaris-10-and-20-series) for more info)
   * Special note for MSI Navi users: [Installer not working with 5700XT #901](https://github.com/acidanthera/bugtracker/issues/901)
     * This issue is no longer present in macOS 11 (Big Sur).
+
+::: warning Important note for NootRX and NootedRed
+These kexts are still in development and you will encounter issues when using these. They also have limitations with OpenGL, DRM, hardware encoding, etc. For more information, read [here](https://chefkissinc.github.io/applehax/nootrx/) for NootRX and [here](https://chefkissinc.github.io/applehax/nootedred/) for NootedRed
+:::
+
 * NVIDIA's GPU support is also complicated:
   * [Maxwell(9XX)](https://en.wikipedia.org/wiki/GeForce_900_series) and [Pascal(10XX)](https://en.wikipedia.org/wiki/GeForce_10_series) GPUs are limited to macOS 10.13: High Sierra
   * [NVIDIA's Turing(20XX,](https://en.wikipedia.org/wiki/GeForce_20_series)[16XX)](https://en.wikipedia.org/wiki/GeForce_16_series) GPUs are **not supported in any version of macOS**

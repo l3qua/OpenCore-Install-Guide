@@ -381,8 +381,14 @@ sudo pmset -a hibernatemode 0
 
 ## Unable to see updates in System Settings on macOS Sonoma and newer
 
-As Apple now polls for more T2-specific information from its Macs, you can't see update in System Settings without installing `RestrictEvents.kext` and add "revpatch - sbvmm" under NVRAM (see picture below):
+As Apple now polls for more T2-specific information from its Macs, you can't see update in System Settings without installing `RestrictEvents.kext` and add `revpatch | String | sbvmm` under NVRAM -> 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102
 
 ![](./../../images/troubleshooting/troubleshooting-md/nvram-revpatch.png)
+
+This value forces VMM SB model, allowing OTA updates for unsupported models on macOS 11.3 or newer. This also help fixes OTA updates for models with T2 chip on macOS 14.0 or newer
+
+::: details More cool things with RestrictEvents.kext
+If you have `RestrictEvents.kext`, you can also custom your CPU name, prevent PCI and RAM configuration notifications on MacPro7,1 platforms and much more. For more info of how to do this, read [RestrictEvents.kext's README](https://github.com/acidanthera/RestrictEvents)
+:::
 
 For all other troubleshooting, please reference [WhateverGreen's Intel docs](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)

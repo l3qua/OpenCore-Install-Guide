@@ -217,6 +217,6 @@ Once this is done, head back to your USB and do 1 final thing. Grab either the *
 
 ## Making an offline installer
 
-This is the only way to install macOS without an internet connection (without a mac) if you can't set up one right now. For instruction on how to do it, read the README.md file in [Unplugged Repo](https://github.com/corpnewt/UnPlugged?tab=readme-ov-file)
+This is the only way to install macOS without an internet connection (without a mac) if you can't set up one right now. For instructions on how to do it, read the README.md file in [Unplugged Repo](https://github.com/corpnewt/UnPlugged?tab=readme-ov-file)
 
 ## Now with all this done, head to [Setting up the EFI](./opencore-efi.md) to finish up your work
