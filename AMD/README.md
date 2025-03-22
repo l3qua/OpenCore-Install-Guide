@@ -20,4 +20,4 @@
 
 * `SSE4.2` is required for `macOS 10.14`+. Avoid SSE4.1-only CPUs if possible. There is a chance that might work with some hacks, see [Gathering Files > Kexts](./amd-gathering-files.md#kexts) (oh no I haven't done this yet plz don't click)
 
-## Now that we've known the requirements for CPUs and GPUs (assuming you've read the Buyers Guides), head to [Making the USB (section for AMD)]
+## Now that we've known the requirements for CPUs and GPUs (assuming you've read the Buyers Guides), head to [Making the USB (section for AMD)](./makeusb)
