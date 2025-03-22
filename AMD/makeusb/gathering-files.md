@@ -26,3 +26,32 @@ And then, move the `Sample.plist` from (the OpenCorePkg folder)/Docs to your USB
 And then rename it to config.plist:
 
 ![](../../images/AMD/AMD-Gathering-Files/copyandrenameconfig.png)
+
+:::tips Info
+OpenCore is not case-sensitive, however you can put some letters in caps as it makes reading easier :P
+:::
+
+## ACPI
+
+### Getting SSDTTime
+
+:::tips Fun fact!
+In the past, people had to write SSDTs manually, but now there are automated tools! We'll be using CorpNewt's [SSDTTime](https://github.com/corpnewt/SSDTTime)
+:::
+
+Because SSDTTime does not have any releases (because it's purely Python), download the source code by clicking on ***Code*** and ***Download ZIP***
+
+![](../../images/AMD/AMD-Gathering-Files/SSDTTime-Download.png)
+
+### Running SSDTTime
+
+After extracting the ZIP, <span style="color:cyan">**Windows users**</span> should run `SSDTTime.bat`, <span style="color:orange">**Linux users** will have to open terminal inside the extracted ***SSDTTime/SSDTTime-master*** directory and then run 
+```sh
+python3 SSDTTime.py
+```
+
+**macOS users** should run `SSDTTime.command`
+
+After running, it will automatically download iASL (which decompiles ACPI tables). Once done, the script will greet you with this screen:
+
+![](../../images/AMD/AMD-Gathering-Files/ssdttime-menu.png)
