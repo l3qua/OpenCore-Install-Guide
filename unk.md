@@ -18,7 +18,7 @@ I'll still hang out but with a new persona in:
 For the rest, I'm not sure.
 Please, don't try to harrass me to come back or something. I have not quitted yet.
 My old account and alts will still be available for DMs, GDMs and pings.
-I hope y'all have a good time, my friends! 
+I hope y'all have a good time, my friends!
 
 **A bit more info about my new account**
 
