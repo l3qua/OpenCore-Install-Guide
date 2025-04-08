@@ -1,7 +1,7 @@
 # Saying goodbye
 
 ::: details A little details on what I'm doing
-As you guys know, I'm feeling horribly bad lately, and I don't feel comfortable being on Discord and using technology for too long. This time, I've decided to refresh myself, with the main stuff being:
+As you guys know, I'm feeling horribly bad lately, and I don't feel comfortable being on Discord and using technology for too long (If you're wondering whether is this a fake reason or not, feel free to ask). This time, I've decided to refresh myself, with the main stuff being:
 
 * Going outside more often
 * Stop using Discord or use a new account.
