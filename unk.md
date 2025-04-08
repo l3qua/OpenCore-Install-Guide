@@ -5,6 +5,7 @@ As you guys know, I'm feeling horribly bad lately, and I don't feel comfortable 
 
 * Going outside more often
 * Stop using Discord or use a new account.
+* Having a bot running 24/7 posting about my mood being online or something. This may benefit, or not. I actually hope that it will not get out of the boundaries (violating HelioHost's TOS). And no, please NEVER expect me to leak you my bot link. It's a panel, but after all, I don't think it's a good idea to make it public.
 
 I'll still hang out but with a new persona in:
 
