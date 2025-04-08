@@ -37,6 +37,9 @@ Some are correct, and some are not. Have fun!!
 :::
 
 Please read the details box before even trying to pull me back or something. This is one of the decisions I've been struggling to make so far in life. It might, or might not be final.
+
 Count this as a farewell letter.
+
 Kind regards,
+
 ***MineTurtlee.***
