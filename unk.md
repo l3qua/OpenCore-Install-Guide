@@ -30,7 +30,7 @@ The hints are:
 * **Mine**Turtlee
 * What is the explosive mob in Minecraft?
 * What sound does the ^ make when it explodes?
-* The bomb game
+* The classic, and nostalgic bomb game
 * Human form of Freelinter (you know him)
 
 Some are correct, and some are not. Have fun!!
