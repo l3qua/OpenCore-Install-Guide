@@ -9,13 +9,13 @@ As you guys know, I'm feeling horribly bad lately, and I don't feel comfortable 
 
 I'll still hang out but with a new persona in:
 
-* /r/Hackintosh Paradise (Formerly CorpNewtonians Paradise)
-* SMG4's Hobo Paradise (Maybe)
-* MineTurtlee's Hideout
-* HelioHost
-* Capyhub
-* Rythm (tho it's dead)
-* Meminit!! (gg jackson, you've got me to stay!!!!! 🥳)
+* /r/Hackintosh Paradise (Formerly CorpNewtonians Paradise) (Just get the link somewhere in this guide idk)
+* SMG4's Hobo Paradise (Maybe) (.gg/smg4)
+* MineTurtlee's Hideout (.gg/Ab8bfTXG7E)
+* HelioHost (discovery menu)
+* Capyhub (.gg/capybara)
+* Rythm (tho it's dead) (.gg/rythm)
+* Meminit!! (gg jackson, you've got me to stay!!!!! 🥳) (.gg/MeminIt)
 
 For the rest, I'm not sure.
 Please, don't try to harrass me to come back or something. I have not quitted yet.
