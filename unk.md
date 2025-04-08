@@ -15,6 +15,7 @@ I'll still hang out but with a new persona in:
 * HelioHost
 * Capyhub
 * Rythm (tho it's dead)
+* Meminit!! (gg jackson, you've got me to stay!!!!! 🥳)
 
 For the rest, I'm not sure.
 Please, don't try to harrass me to come back or something. I have not quitted yet.
