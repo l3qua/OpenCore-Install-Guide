@@ -625,7 +625,7 @@ We set Generic -> ROM to either an Apple ROM (dumped from a real Mac), your NIC 
   * Updates SMBIOS fields
 
 * **UpdateSMBIOSMode**: Custom
-  * Write SMBIOS tables to workaround firmware overwriting SMBIOS contents at ExitBootServices. This makes the customized SMBIOS not display on other (non-Apple) OSes, which just breaks/removes Bootcamp utility
+  * Write SMBIOS tables to workaround firmware overwriting SMBIOS contents at ExitBootServices. This makes the customized SMBIOS not display on other (non-Apple) OSes, which just breaks/removes Bootcamp utility and to not break activation function on Windows
 
 :::
 
