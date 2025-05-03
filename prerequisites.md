@@ -39,5 +39,5 @@ Before we can jump head first into making an OpenCore based system, we need to g
    * In most cases, updating your BIOS will provide the best support for macOS
    * The exception to this are MSI 500-series AMD motherboards, read more at [Motherboard Support](macos-limits.md#motherboard-support)
 10. <span style="color:red">_**[CRUCIAL]**_</span> **Reading ability**
-   * You will need to be able to read English propely in order to continue
-   * Don't start working on this if you can't read English
+     * You will need to be able to read English propely in order to continue
+     * Don't start working on this if you can't read English
