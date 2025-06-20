@@ -49,7 +49,6 @@ Guides linked or those that inspired this guide:
 * [Intel Framebuffer Patching](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md)
 * [AppleALC Supported Codecs](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs)
 * [gfxutil](https://github.com/acidanthera/gfxutil/releases)
-* [ChefsKiss Guide](https://chefkissinc.github.io/guides/hackintosh/)
 
 And for those who have recommendations or issues with this guide, you can find the GitHub repo for this site [here](https://github.com/l3qua/OpenCore-Install-Guide).
 

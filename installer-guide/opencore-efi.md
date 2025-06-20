@@ -97,7 +97,3 @@ Here's what a populated EFI **_can_** look like (yours will be different):
 * Firmware drivers(`.efi`) go in the Drivers folder
 
 # Now with all this done, head to [Gathering Files](../ktext.md) to get the needed kexts and firmware drivers
-
-:::tips Info
-For users using AMD computers, head [here](../AMD/makeusb/gathering-files.md) to get kexts and firmware drivers
-:::

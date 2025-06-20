@@ -587,8 +587,9 @@ We set Generic -> ROM to either an Apple ROM (dumped from a real Mac), your NIC 
 * **UpdateSMBIOS**: YES
   * Updates SMBIOS fields
 
-* **UpdateSMBIOSMode**: Custom
-  * Write SMBIOS tables to workaround firmware overwriting SMBIOS contents at ExitBootServices. This makes the customized SMBIOS not display on other (non-Apple) OSes, which just breaks/removes Bootcamp utility and to not break activation function on Windows
+* **UpdateSMBIOSMode**: Create
+  * Replace the tables with newly allocated EfiReservedMemoryType, use `Custom` on Dell laptops requiring `CustomSMBIOSGuid` quirk
+  * Setting to `Custom` with `CustomSMBIOSGuid` quirk enabled can also disable SMBIOS injection into "non-Apple" OSes however we do not endorse this method as it breaks Bootcamp compatibility. Use at your own risk
 
 :::
 
