@@ -38,3 +38,7 @@ Before we can jump head first into making an OpenCore based system, we need to g
 9. <span style="color:red">_**[CRUCIAL]**_</span> **Reading ability**
    * You will need to be able to read English propely in order to continue
    * Don't start working on this if you can't read English
+   * Make sure you understand the [terminologies](terminology.md)
+10. <span style="color:red"> _**[CRUCIAL]**_</span> **Common sense**
+   * You'll need to have common sense, which is required throughout the guide.
+   * Common sense is also crucial for helpers to help you whenever you need help, at [/r/Hackintosh Paradise](https://discord.gg/u8V7N5C).
