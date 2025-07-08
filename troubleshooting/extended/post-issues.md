@@ -382,6 +382,7 @@ sudo pmset -a hibernatemode 0
 ## Unable to see updates in System Settings on macOS Sonoma and newer
 
 As Apple now polls for more T2-specific information from its Macs, you can't see update in System Settings without installing `RestrictEvents.kext` and add `revpatch | String | sbvmm` under NVRAM -> Add-> 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102 or `revpatch=sbvmm` under NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> boot-args
+
 * If you already use `revpatch=` boot-args with other values, you can add `,sbvmm` to the current value (ex: `revpatch=auto,sbvmm`)
 
 ![](./../../images/troubleshooting/troubleshooting-md/nvram-revpatch.png)
